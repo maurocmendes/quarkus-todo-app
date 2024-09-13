@@ -29,7 +29,13 @@
         </dependencies>
     </dependencyManagement>
 
+
+
     <dependencies>
+        <dependency>
+            <groupId>jakarta.persistence</groupId>
+            <artifactId>jakarta.persistence-api</artifactId>
+        </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-observability-devservices</artifactId>
